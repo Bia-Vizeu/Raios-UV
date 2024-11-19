@@ -3,16 +3,9 @@
     padding: 0;
 }
 
-body {
-    background: url('background.png') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
 header {
     width: 100vw;
-    background: rgba(60, 4, 74, 0.8); /* Adicionado fundo semi-transparente */
+    background: black;
     padding: 1vw;
 
     .container {
@@ -49,13 +42,14 @@ header {
 
 main {
     width: 100vw;
-    background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .container2 {
         width: 50vw;
+        background-color: rgb(231, 231, 231);
         border-radius: 1vw;
         padding: 8vw;
         margin: 5vw;
@@ -64,29 +58,43 @@ main {
 
     .container2 h1 {
         font-size: 4.5vw;
-        color: white;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .container2 h2 {
         font-size: 1.5vw;
-        color: white;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .container2 span {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 1.2vw;
-        color: white;
     }
+
+}
+
+.container2 ul,
+.container6 ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
+    color: black;
 }
 
 .container5 {
     width: 100vw;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .container6 {
         width: 50vw;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgb(231, 231, 231);
         border-radius: 1vw;
         padding: 8vw;
         margin: 5vw;
@@ -95,33 +103,36 @@ main {
 
     .container6 h1 {
         font-size: 2.5vw;
-        color: white;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .container6 h2 {
         font-size: 1.5vw;
-        color: white;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .container6 ul {
         list-style-type: disc;
         margin: 10px 0;
-        padding-left: 20px;
+        padding-left: 20px; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 1.2vw;
-        color: white;
+        color: black; 
     }
 }
 
 .container7 {
     width: 100vw;
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .container8 {
         width: 50vw;
-        background-color: rgba(106, 62, 114, 0.5);
+        background-color: rgb(231, 231, 231);
         border-radius: 1vw;
         padding: 8vw;
         margin: 5vw;
@@ -130,20 +141,20 @@ main {
 
     .container8 h1 {
         font-size: 2.5vw;
-        color: rgb(255, 255, 255);
+        color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .container8 h2 {
         font-size: 1.5vw;
-        color: rgb(220, 161, 234);
+        color: rgb(89, 25, 105);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 
 footer {
     width: 100vw;
-    background: rgba(0, 0, 0, 0.8);
+    background: black;
     color: white;
     padding: 1vw;
     display: flex;
